@@ -15,9 +15,10 @@ const Counter = () => {
         else{
             setnum(num - 1);
         }
-      const Change=()=>{
-        setdata("Arka Kundu");
-      }
+      
+    };
+    const Change = () => {
+      setdata("Arka Kundu");
     };
 
     useEffect(()=>{
